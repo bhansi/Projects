@@ -1,0 +1,13 @@
+First, a signal handler is installed to handle SIGINT and SIGSTP is ignored.
+
+Then the user is given 10 seconds where if they press ctrl-c, a message is
+    shown and if they press ctrl-z, it is ignored.
+
+Then the donothing program is executed using execlp.
+
+It can then be observed that the previously ignored signal, SIGSTP,
+    continues to be ignored (the user presses ctrl-z but nothing happens)
+
+It can also be observed that the default signal hangler is restored for
+    the SIGINT signal and it is now affects the program (terminating it
+    when the user presses ctrl-c)

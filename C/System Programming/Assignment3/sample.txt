@@ -1,0 +1,4 @@
+---------------------------
+|hello, this is sample.txt|
+|these are my contents    |
+---------------------------

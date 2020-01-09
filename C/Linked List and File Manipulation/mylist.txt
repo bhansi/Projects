@@ -1,0 +1,6 @@
+8 5 Early_class
+12 30 Lunch_date_in_the_CAW
+12 30 Review_my_midterm
+14 30 Lab_in_Erie_Hall
+19 0 Dinner_at_Subway_with_friends
+21 30 Read_my_lecture_notes_before_bed

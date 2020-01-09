@@ -1,0 +1,23 @@
+h1, h2, p, a
+{
+    font-family: Verdana;
+    text-align: center;
+}
+
+li
+{
+    font-family: Verdana;
+}
+
+ul, ol
+{
+    display: table;
+    margin: 0 auto;
+}
+
+a#button
+{
+    background-color: gold;
+    border: 1px solid black;
+    padding: 5px;
+}
